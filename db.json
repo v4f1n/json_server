@@ -1,0 +1,3576 @@
+{
+  "doctors": [
+    {
+      "id": 1,
+      "lastName": "Иванов",
+      "firstName": "Иван",
+      "patronymic": "Иванович",
+      "position": "Терапевт",
+      "department": "Общая медицина",
+      "experience": 10,
+      "rating": 4.5,
+      "bio": "Доктор Иванов - опытный терапевт с 10-летним стажем. Он посвятил свою жизнь заботе о здоровье пациентов. Специализируется на диагностике и лечении различных заболеваний. Его профессионализм и внимание к деталям помогают пациентам быстро восстановиться.",
+      "gender": "male",
+      "photo": "https://idopk.ru/upload/iblock/deb/oqnundumsm8tjzstbies2i19j4k668wt.jpg"
+    },
+    {
+      "id": 2,
+      "lastName": "Петрова",
+      "firstName": "Мария",
+      "patronymic": "Александровна",
+      "position": "Хирург",
+      "department": "Хирургия",
+      "experience": 15,
+      "rating": 4.8,
+      "bio": "Доктор Петрова - выдающийся хирург с 15-летним опытом. Она специализируется на сложных операциях и спасении жизней. Ее профессиональный подход и внимание к деталям сделали ее одним из лучших хирургов в стране.",
+      "gender": "female",
+      "photo": "https://funik.ru/wp-content/uploads/2019/03/6eb74262054f2ae4e511.jpg"
+    },
+    {
+      "id": 3,
+      "lastName": "Смирнов",
+      "firstName": "Алексей",
+      "patronymic": "Владимирович",
+      "position": "Офтальмолог",
+      "department": "Офтальмология",
+      "experience": 12,
+      "rating": 4.6,
+      "bio": "Доктор Смирнов - ведущий офтальмолог с 12-летним опытом. Он специализируется на лечении глазных заболеваний и проведении операций по восстановлению зрения. Его доброжелательный подход и высокая квалификация завоевали доверие многих пациентов.",
+      "gender": "male",
+      "photo": "https://idopk.ru/upload/iblock/deb/oqnundumsm8tjzstbies2i19j4k668wt.jpg"
+    },
+    {
+      "id": 4,
+      "lastName": "Коваленко",
+      "firstName": "Екатерина",
+      "patronymic": "Игоревна",
+      "position": "Педиатр",
+      "department": "Педиатрия",
+      "experience": 8,
+      "rating": 4.7,
+      "bio": "Доктор Коваленко - опытный педиатр с 8-летним стажем. Она посвятила свою карьеру заботе о здоровье детей. Ее заботливый и профессиональный подход помогают маленьким пациентам чувствовать себя комфортно и безопасно.",
+      "gender": "female",
+      "photo": "https://funik.ru/wp-content/uploads/2019/03/6eb74262054f2ae4e511.jpg"
+    },
+    {
+      "id": 5,
+      "lastName": "Сидоров",
+      "firstName": "Анна",
+      "patronymic": "Игоревна",
+      "position": "Невролог",
+      "department": "Неврология",
+      "experience": 13,
+      "rating": 4.9,
+      "bio": "Доктор Сидоров - опытный невролог с 13-летним стажем. Она специализируется на диагностике и лечении заболеваний нервной системы. Ее дружелюбный и внимательный подход к каждому пациенту сделал ее выдающимся специалистом в своей области.",
+      "gender": "female",
+      "photo": "https://funik.ru/wp-content/uploads/2019/03/6eb74262054f2ae4e511.jpg"
+    },
+    {
+      "id": 6,
+      "lastName": "Павлов",
+      "firstName": "Дмитрий",
+      "patronymic": "Николаевич",
+      "position": "Кардиолог",
+      "department": "Кардиология",
+      "experience": 11,
+      "rating": 4.7,
+      "bio": "Доктор Павлов - выдающийся кардиолог с 11-летним опытом. Он специализируется на диагностике и лечении сердечно-сосудистых заболеваний. Его стремление к совершенствованию и внимание к деталям позволяют ему предоставлять высококачественную медицинскую помощь.",
+      "gender": "male",
+      "photo": "https://idopk.ru/upload/iblock/deb/oqnundumsm8tjzstbies2i19j4k668wt.jpg"
+    },
+    {
+      "id": 7,
+      "lastName": "Кузнецова",
+      "firstName": "Елена",
+      "patronymic": "Андреевна",
+      "position": "Гинеколог",
+      "department": "Гинекология",
+      "experience": 9,
+      "rating": 4.6,
+      "bio": "Доктор Кузнецова - опытный гинеколог с 9-летним стажем. Она предоставляет высококачественные услуги в области женского здоровья. Ее доброжелательный и профессиональный подход позволяет пациенткам чувствовать себя уверенно и заботливо обеспечивает медицинскую поддержку.",
+      "gender": "female",
+      "photo": "https://funik.ru/wp-content/uploads/2019/03/6eb74262054f2ae4e511.jpg"
+    },
+    {
+      "id": 8,
+      "lastName": "Михайлов",
+      "firstName": "Артем",
+      "patronymic": "Сергеевич",
+      "position": "Пульмонолог",
+      "department": "Пульмонология",
+      "experience": 14,
+      "rating": 4.8,
+      "bio": "Доктор Михайлов - ведущий пульмонолог с 14-летним опытом. Он специализируется на диагностике и лечении заболеваний дыхательной системы. Его профессионализм и внимание к пациентам сделали его авторитетным врачом в области пульмонологии.",
+      "gender": "male",
+      "photo": "https://idopk.ru/upload/iblock/deb/oqnundumsm8tjzstbies2i19j4k668wt.jpg"
+    },
+    {
+      "id": 9,
+      "lastName": "Новикова",
+      "firstName": "Анастасия",
+      "patronymic": "Александровна",
+      "position": "Эндокринолог",
+      "department": "Эндокринология",
+      "experience": 10,
+      "rating": 4.9,
+      "bio": "Доктор Новикова - выдающийся эндокринолог с 10-летним опытом. Она специализируется на диагностике и лечении заболеваний эндокринной системы. Ее стремление к обучению и заботливый подход сделали ее ценным членом медицинского сообщества.",
+      "gender": "female",
+      "photo": "https://funik.ru/wp-content/uploads/2019/03/6eb74262054f2ae4e511.jpg"
+    },
+    {
+      "id": 10,
+      "lastName": "Козлов",
+      "firstName": "Максим",
+      "patronymic": "Дмитриевич",
+      "position": "Ортопед",
+      "department": "Ортопедия",
+      "experience": 12,
+      "rating": 4.8,
+      "bio": "Доктор Козлов - опытный ортопед с 12-летним стажем. Он специализируется на лечении заболеваний и травм опорно-двигательной системы. Его профессионализм и внимание к потребностям пациентов сделали его востребованным специалистом в области ортопедии.",
+      "gender": "male",
+      "photo": "https://idopk.ru/upload/iblock/deb/oqnundumsm8tjzstbies2i19j4k668wt.jpg"
+    },
+    {
+      "id": 11,
+      "lastName": "Белова",
+      "firstName": "Екатерина",
+      "patronymic": "Петровна",
+      "position": "Акушер-гинеколог",
+      "department": "Акушерство и гинекология",
+      "experience": 11,
+      "rating": 4.7,
+      "bio": "Доктор Белова - выдающийся акушер-гинеколог с 11-летним опытом. Она предоставляет высококачественные услуги по ведению беременности и лечению женских заболеваний. Ее доброта и профессионализм приносят уверенность будущим мамам.",
+      "gender": "female",
+      "photo": "https://funik.ru/wp-content/uploads/2019/03/6eb74262054f2ae4e511.jpg"
+    },
+    {
+      "id": 12,
+      "lastName": "Васнецов",
+      "firstName": "Игорь",
+      "patronymic": "Анатольевич",
+      "position": "Нейрохирург",
+      "department": "Нейрохирургия",
+      "experience": 13,
+      "rating": 4.9,
+      "bio": "Доктор Васнецов - ведущий нейрохирург с 13-летним опытом. Он специализируется на хирургическом лечении заболеваний центральной нервной системы. Его профессионализм и способность принимать быстрые решения спасают жизни многих пациентов.",
+      "gender": "male",
+      "photo": "https://idopk.ru/upload/iblock/deb/oqnundumsm8tjzstbies2i19j4k668wt.jpg"
+    },
+    {
+      "id": 13,
+      "lastName": "Иванов",
+      "firstName": "Александр",
+      "patronymic": "Петрович",
+      "position": "Терапевт",
+      "department": "Терапия",
+      "experience": 15,
+      "rating": 4.8,
+      "bio": "Доктор Иванов - опытный терапевт с 15-летним стажем. Он заботится о здоровье своих пациентов, предоставляя качественные медицинские услуги. Его подход к лечению всегда ориентирован на индивидуальные потребности каждого человека.",
+      "gender": "male",
+      "photo": "https://idopk.ru/upload/iblock/deb/oqnundumsm8tjzstbies2i19j4k668wt.jpg"
+    },
+    {
+      "id": 14,
+      "lastName": "Петрова",
+      "firstName": "Екатерина",
+      "patronymic": "Алексеевна",
+      "position": "Гинеколог",
+      "department": "Гинекология",
+      "experience": 12,
+      "rating": 4.7,
+      "bio": "Доктор Петрова - опытный гинеколог с 12-летним стажем. Она специализируется на женском здоровье и предоставляет квалифицированную медицинскую помощь своим пациентам.",
+      "gender": "female",
+      "photo": "https://funik.ru/wp-content/uploads/2019/03/6eb74262054f2ae4e511.jpg"
+    },
+    {
+      "id": 15,
+      "lastName": "Смирнов",
+      "firstName": "Дмитрий",
+      "patronymic": "Сергеевич",
+      "position": "Онколог",
+      "department": "Онкология",
+      "experience": 18,
+      "rating": 4.9,
+      "bio": "Доктор Смирнов - врач-онколог с богатым опытом в лечении раковых заболеваний. Его превосходные навыки и внимание к деталям делают его одним из ведущих специалистов в области онкологии.",
+      "gender": "male",
+      "photo": "https://idopk.ru/upload/iblock/deb/oqnundumsm8tjzstbies2i19j4k668wt.jpg"
+    },
+    {
+      "id": 16,
+      "lastName": "Козлов",
+      "firstName": "Марина",
+      "patronymic": "Игоревна",
+      "position": "Офтальмолог",
+      "department": "Офтальмология",
+      "experience": 14,
+      "rating": 4.6,
+      "bio": "Доктор Козлова - опытный офтальмолог с 14-летним стажем. Она специализируется на лечении заболеваний глаз и проведении хирургических вмешательств.",
+      "gender": "female",
+      "photo": "https://funik.ru/wp-content/uploads/2019/03/6eb74262054f2ae4e511.jpg"
+    },
+    {
+      "id": 17,
+      "lastName": "Медведев",
+      "firstName": "Анатолий",
+      "patronymic": "Дмитриевич",
+      "position": "Кардиолог",
+      "department": "Кардиология",
+      "experience": 16,
+      "rating": 4.8,
+      "bio": "Доктор Медведев - кардиолог с 16-летним опытом. Он специализируется на диагностике и лечении заболеваний сердца, обеспечивая высокий уровень медицинской помощи.",
+      "gender": "male",
+      "photo": "https://idopk.ru/upload/iblock/deb/oqnundumsm8tjzstbies2i19j4k668wt.jpg"
+    },
+    {
+      "id": 18,
+      "lastName": "Соколова",
+      "firstName": "Ольга",
+      "patronymic": "Сергеевна",
+      "position": "Детский врач",
+      "department": "Педиатрия",
+      "experience": 10,
+      "rating": 4.5,
+      "bio": "Доктор Соколова - педиатр с 10-летним стажем. Она предоставляет качественную медицинскую помощь детям, заботясь о их здоровье и благополучии.",
+      "gender": "female",
+      "photo": "https://funik.ru/wp-content/uploads/2019/03/6eb74262054f2ae4e511.jpg"
+    },
+    {
+      "id": 19,
+      "lastName": "Андреев",
+      "firstName": "Светлана",
+      "patronymic": "Владимировна",
+      "position": "Эндокринолог",
+      "department": "Эндокринология",
+      "experience": 13,
+      "rating": 4.7,
+      "bio": "Доктор Андреева - специалист по эндокринологии с 13-летним опытом. Она заботится о пациентах с заболеваниями эндокринной системы, предоставляя компетентную помощь и рекомендации.",
+      "gender": "female",
+      "photo": "https://funik.ru/wp-content/uploads/2019/03/6eb74262054f2ae4e511.jpg"
+    },
+    {
+      "id": 20,
+      "lastName": "Белов",
+      "firstName": "Евгений",
+      "patronymic": "Александрович",
+      "position": "Хирург",
+      "department": "Хирургия",
+      "experience": 17,
+      "rating": 4.9,
+      "bio": "Доктор Белов - выдающийся хирург с 17-летним опытом. Он специализируется на хирургических вмешательствах и оказании экстренной медицинской помощи.",
+      "gender": "male",
+      "photo": "https://idopk.ru/upload/iblock/deb/oqnundumsm8tjzstbies2i19j4k668wt.jpg"
+    },
+    {
+      "id": 21,
+      "lastName": "Кузнецова",
+      "firstName": "Татьяна",
+      "patronymic": "Алексеевна",
+      "position": "Невролог",
+      "department": "Неврология",
+      "experience": 11,
+      "rating": 4.6,
+      "bio": "Доктор Кузнецова - невролог с 11-летним стажем. Она специализируется на диагностике и лечении заболеваний нервной системы, обеспечивая качественную медицинскую помощь.",
+      "gender": "female",
+      "photo": "https://funik.ru/wp-content/uploads/2019/03/6eb74262054f2ae4e511.jpg"
+    },
+    {
+      "id": 22,
+      "lastName": "Поляков",
+      "firstName": "Андрей",
+      "patronymic": "Иванович",
+      "position": "Пульмонолог",
+      "department": "Пульмонология",
+      "experience": 14,
+      "rating": 4.8,
+      "bio": "Доктор Поляков - пульмонолог с 14-летним стажем. Он специализируется на диагностике и лечении заболеваний легких, обеспечивая качественную медицинскую помощь пациентам.",
+      "gender": "male",
+      "photo": "https://idopk.ru/upload/iblock/deb/oqnundumsm8tjzstbies2i19j4k668wt.jpg"
+    },
+    {
+      "id": 23,
+      "lastName": "Николаева",
+      "firstName": "Елена",
+      "patronymic": "Анатольевна",
+      "position": "Стоматолог",
+      "department": "Стоматология",
+      "experience": 12,
+      "rating": 4.7,
+      "bio": "Доктор Николаева - стоматолог с 12-летним опытом. Она специализируется на лечении заболеваний полости рта и проведении стоматологических процедур.",
+      "gender": "female",
+      "photo": "https://funik.ru/wp-content/uploads/2019/03/6eb74262054f2ae4e511.jpg"
+    },
+    {
+      "id": 24,
+      "lastName": "Григорьев",
+      "firstName": "Иван",
+      "patronymic": "Дмитриевич",
+      "position": "Травматолог",
+      "department": "Травматология",
+      "experience": 16,
+      "rating": 4.9,
+      "bio": "Доктор Григорьев - травматолог с 16-летним стажем. Он специализируется на лечении травм и ортопедических заболеваний, предоставляя квалифицированную медицинскую помощь.",
+      "gender": "male",
+      "photo": "https://idopk.ru/upload/iblock/deb/oqnundumsm8tjzstbies2i19j4k668wt.jpg"
+    },
+    {
+      "id": 25,
+      "lastName": "Воронина",
+      "firstName": "Наталья",
+      "patronymic": "Сергеевна",
+      "position": "Педиатр",
+      "department": "Педиатрия",
+      "experience": 14,
+      "rating": 4.6,
+      "bio": "Доктор Воронина - педиатр с 14-летним опытом. Она предоставляет заботливую медицинскую помощь детям, стремясь обеспечить их здоровье и благополучие.",
+      "gender": "female",
+      "photo": "https://funik.ru/wp-content/uploads/2019/03/6eb74262054f2ae4e511.jpg"
+    },
+    {
+      "id": 26,
+      "lastName": "Крылов",
+      "firstName": "Артем",
+      "patronymic": "Александрович",
+      "position": "Гастроэнтеролог",
+      "department": "Гастроэнтерология",
+      "experience": 15,
+      "rating": 4.8,
+      "bio": "Доктор Крылов - гастроэнтеролог с 15-летним опытом. Он специализируется на диагностике и лечении заболеваний желудочно-кишечного тракта.",
+      "gender": "male",
+      "photo": "https://idopk.ru/upload/iblock/deb/oqnundumsm8tjzstbies2i19j4k668wt.jpg"
+    },
+    {
+      "id": 27,
+      "lastName": "Лебедева",
+      "firstName": "Ольга",
+      "patronymic": "Николаевна",
+      "position": "Ревматолог",
+      "department": "Ревматология",
+      "experience": 13,
+      "rating": 4.7,
+      "bio": "Доктор Лебедева - ревматолог с 13-летним стажем. Она специализируется на диагностике и лечении заболеваний соединительных тканей и суставов.",
+      "gender": "female",
+      "photo": "https://funik.ru/wp-content/uploads/2019/03/6eb74262054f2ae4e511.jpg"
+    },
+    {
+      "id": 28,
+      "lastName": "Кузьмин",
+      "firstName": "Игорь",
+      "patronymic": "Алексеевич",
+      "position": "Нейрохирург",
+      "department": "Нейрохирургия",
+      "experience": 18,
+      "rating": 4.9,
+      "bio": "Доктор Кузьмин - ведущий нейрохирург с 18-летним опытом. Специализируется на хирургическом лечении заболеваний центральной нервной системы.",
+      "gender": "male",
+      "photo": "https://idopk.ru/upload/iblock/deb/oqnundumsm8tjzstbies2i19j4k668wt.jpg"
+    },
+    {
+      "id": 29,
+      "lastName": "Семенова",
+      "firstName": "Елена",
+      "patronymic": "Игоревна",
+      "position": "Акушер-гинеколог",
+      "department": "Акушерство и гинекология",
+      "experience": 14,
+      "rating": 4.8,
+      "bio": "Доктор Семенова - акушер-гинеколог с 14-летним стажем. Она заботится о здоровье женщин, оказывая квалифицированную помощь в сфере акушерства и гинекологии.",
+      "gender": "female",
+      "photo": "https://funik.ru/wp-content/uploads/2019/03/6eb74262054f2ae4e511.jpg"
+    },
+    {
+      "id": 30,
+      "lastName": "Петров",
+      "firstName": "Денис",
+      "patronymic": "Николаевич",
+      "position": "Кардиохирург",
+      "department": "Кардиохирургия",
+      "experience": 20,
+      "rating": 4.9,
+      "bio": "Доктор Петров - кардиохирург с 20-летним опытом. Он специализируется на хирургическом лечении заболеваний сердца и сосудов.",
+      "gender": "male",
+      "photo": "https://idopk.ru/upload/iblock/deb/oqnundumsm8tjzstbies2i19j4k668wt.jpg"
+    },
+    {
+      "id": 31,
+      "lastName": "Антонов",
+      "firstName": "Сергей",
+      "patronymic": "Александрович",
+      "position": "Уролог",
+      "department": "Урология",
+      "experience": 15,
+      "rating": 4.7,
+      "bio": "Доктор Антонов - уролог с 15-летним опытом. Специализируется на диагностике и лечении заболеваний мочеполовой системы у мужчин.",
+      "gender": "male",
+      "photo": "https://idopk.ru/upload/iblock/deb/oqnundumsm8tjzstbies2i19j4k668wt.jpg"
+    },
+    {
+      "id": 32,
+      "lastName": "Савельева",
+      "firstName": "Марина",
+      "patronymic": "Игоревна",
+      "position": "Психиатр",
+      "department": "Психиатрия",
+      "experience": 13,
+      "rating": 4.6,
+      "bio": "Доктор Савельева - психиатр с 13-летним стажем. Специализируется на диагностике и лечении психических расстройств.",
+      "gender": "female",
+      "photo": "https://funik.ru/wp-content/uploads/2019/03/6eb74262054f2ae4e511.jpg"
+    },
+    {
+      "id": 33,
+      "lastName": "Герасимов",
+      "firstName": "Дмитрий",
+      "patronymic": "Николаевич",
+      "position": "Гематолог",
+      "department": "Гематология",
+      "experience": 14,
+      "rating": 4.8,
+      "bio": "Доктор Герасимов - гематолог с 14-летним стажем. Специализируется на диагностике и лечении заболеваний крови и костного мозга.",
+      "gender": "male",
+      "photo": "https://idopk.ru/upload/iblock/deb/oqnundumsm8tjzstbies2i19j4k668wt.jpg"
+    },
+    {
+      "id": 34,
+      "lastName": "Исаева",
+      "firstName": "Анна",
+      "patronymic": "Сергеевна",
+      "position": "Нутрициолог",
+      "department": "Диетология",
+      "experience": 12,
+      "rating": 4.7,
+      "bio": "Доктор Исаева - нутрициолог с 12-летним опытом. Специализируется на разработке индивидуальных планов питания для поддержания здоровья и профилактики заболеваний.",
+      "gender": "female",
+      "photo": "https://funik.ru/wp-content/uploads/2019/03/6eb74262054f2ae4e511.jpg"
+    },
+    {
+      "id": 35,
+      "lastName": "Тимофеев",
+      "firstName": "Иван",
+      "patronymic": "Николаевич",
+      "position": "Эндоскопист",
+      "department": "Эндоскопия",
+      "experience": 16,
+      "rating": 4.9,
+      "bio": "Доктор Тимофеев - эндоскопист с 16-летним стажем. Специализируется на проведении эндоскопических исследований и хирургических вмешательств.",
+      "gender": "male",
+      "photo": "https://idopk.ru/upload/iblock/deb/oqnundumsm8tjzstbies2i19j4k668wt.jpg"
+    },
+    {
+      "id": 36,
+      "lastName": "Коваленко",
+      "firstName": "Елена",
+      "patronymic": "Владимировна",
+      "position": "Аллерголог-иммунолог",
+      "department": "Аллергология и иммунология",
+      "experience": 14,
+      "rating": 4.8,
+      "bio": "Доктор Коваленко - аллерголог-иммунолог с 14-летним опытом. Специализируется на диагностике и лечении аллергических и иммунных заболеваний.",
+      "gender": "female",
+      "photo": "https://funik.ru/wp-content/uploads/2019/03/6eb74262054f2ae4e511.jpg"
+    },
+    {
+      "id": 37,
+      "lastName": "Александров",
+      "firstName": "Владимир",
+      "patronymic": "Игоревич",
+      "position": "Пульмонолог",
+      "department": "Пульмонология",
+      "experience": 17,
+      "rating": 4.9,
+      "bio": "Доктор Александров - пульмонолог с 17-летним опытом. Специализируется на диагностике и лечении заболеваний дыхательной системы.",
+      "gender": "male",
+      "photo": "https://idopk.ru/upload/iblock/deb/oqnundumsm8tjzstbies2i19j4k668wt.jpg"
+    },
+    {
+      "id": 38,
+      "lastName": "Казанцева",
+      "firstName": "Елена",
+      "patronymic": "Александровна",
+      "position": "Ортопед",
+      "department": "Ортопедия",
+      "experience": 15,
+      "rating": 4.8,
+      "bio": "Доктор Казанцева - ортопед с 15-летним опытом. Специализируется на диагностике и лечении заболеваний опорно-двигательной системы.",
+      "gender": "female",
+      "photo": "https://funik.ru/wp-content/uploads/2019/03/6eb74262054f2ae4e511.jpg"
+    },
+    {
+      "id": 39,
+      "lastName": "Борисов",
+      "firstName": "Анатолий",
+      "patronymic": "Дмитриевич",
+      "position": "Нефролог",
+      "department": "Нефрология",
+      "experience": 16,
+      "rating": 4.9,
+      "bio": "Доктор Борисов - нефролог с 16-летним опытом. Специализируется на диагностике и лечении заболеваний почек.",
+      "gender": "male",
+      "photo": "https://idopk.ru/upload/iblock/deb/oqnundumsm8tjzstbies2i19j4k668wt.jpg"
+    },
+    {
+      "id": 40,
+      "lastName": "Смирнова",
+      "firstName": "Мария",
+      "patronymic": "Павловна",
+      "position": "Анестезиолог",
+      "department": "Анестезиология и реанимация",
+      "experience": 14,
+      "rating": 4.7,
+      "bio": "Доктор Смирнова - анестезиолог с 14-летним опытом. Специализируется на обеспечении анестезии и реанимации в хирургических вмешательствах.",
+      "gender": "female",
+      "photo": "https://funik.ru/wp-content/uploads/2019/03/6eb74262054f2ae4e511.jpg"
+    },
+    {
+      "id": 41,
+      "lastName": "Кудряшов",
+      "firstName": "Алексей",
+      "patronymic": "Сергеевич",
+      "position": "Офтальмолог",
+      "department": "Офтальмология",
+      "experience": 18,
+      "rating": 4.9,
+      "bio": "Доктор Кудряшов - офтальмолог с 18-летним опытом. Специализируется на диагностике и лечении заболеваний глаз.",
+      "gender": "male",
+      "photo": "https://idopk.ru/upload/iblock/deb/oqnundumsm8tjzstbies2i19j4k668wt.jpg"
+    },
+    {
+      "id": 42,
+      "lastName": "Назарова",
+      "firstName": "Ольга",
+      "patronymic": "Игоревна",
+      "position": "Терапевт",
+      "department": "Терапия",
+      "experience": 15,
+      "rating": 4.6,
+      "bio": "Доктор Назарова - терапевт с 15-летним стажем. Специализируется на общей медицинской практике и диагностике различных заболеваний.",
+      "gender": "female",
+      "photo": "https://funik.ru/wp-content/uploads/2019/03/6eb74262054f2ae4e511.jpg"
+    },
+    {
+      "id": 43,
+      "lastName": "Григорьева",
+      "firstName": "Ирина",
+      "patronymic": "Анатольевна",
+      "position": "Гинеколог",
+      "department": "Гинекология",
+      "experience": 16,
+      "rating": 4.8,
+      "bio": "Доктор Григорьева - гинеколог с 16-летним опытом. Специализируется на диагностике и лечении заболеваний женской репродуктивной системы.",
+      "gender": "female",
+      "photo": "https://funik.ru/wp-content/uploads/2019/03/6eb74262054f2ae4e511.jpg"
+    },
+    {
+      "id": 44,
+      "lastName": "Попов",
+      "firstName": "Артем",
+      "patronymic": "Игоревич",
+      "position": "Ортодонт",
+      "department": "Ортодонтия",
+      "experience": 14,
+      "rating": 4.7,
+      "bio": "Доктор Попов - ортодонт с 14-летним опытом. Специализируется на коррекции прикуса и лечении заболеваний челюстно-лицевой области.",
+      "gender": "male",
+      "photo": "https://idopk.ru/upload/iblock/deb/oqnundumsm8tjzstbies2i19j4k668wt.jpg"
+    },
+    {
+      "id": 45,
+      "lastName": "Соколов",
+      "firstName": "Олег",
+      "patronymic": "Николаевич",
+      "position": "Эндокринолог",
+      "department": "Эндокринология",
+      "experience": 17,
+      "rating": 4.9,
+      "bio": "Доктор Соколов - эндокринолог с 17-летним опытом. Специализируется на диагностике и лечении заболеваний эндокринной системы.",
+      "gender": "male",
+      "photo": "https://idopk.ru/upload/iblock/deb/oqnundumsm8tjzstbies2i19j4k668wt.jpg"
+    },
+    {
+      "id": 46,
+      "lastName": "Жукова",
+      "firstName": "Екатерина",
+      "patronymic": "Валерьевна",
+      "position": "Невролог",
+      "department": "Неврология",
+      "experience": 15,
+      "rating": 4.8,
+      "bio": "Доктор Жукова - невролог с 15-летним опытом. Специализируется на диагностике и лечении заболеваний нервной системы.",
+      "gender": "female",
+      "photo": "https://funik.ru/wp-content/uploads/2019/03/6eb74262054f2ae4e511.jpg"
+    },
+    {
+      "id": 47,
+      "lastName": "Логинов",
+      "firstName": "Даниил",
+      "patronymic": "Игоревич",
+      "position": "Кардиолог",
+      "department": "Кардиология",
+      "experience": 16,
+      "rating": 4.9,
+      "bio": "Доктор Логинов - кардиолог с 16-летним опытом. Специализируется на диагностике и лечении сердечно-сосудистых заболеваний.",
+      "gender": "male",
+      "photo": "https://idopk.ru/upload/iblock/deb/oqnundumsm8tjzstbies2i19j4k668wt.jpg"
+    },
+    {
+      "id": 48,
+      "lastName": "Носова",
+      "firstName": "Марина",
+      "patronymic": "Александровна",
+      "position": "Стоматолог",
+      "department": "Стоматология",
+      "experience": 14,
+      "rating": 4.7,
+      "bio": "Доктор Носова - стоматолог с 14-летним опытом. Специализируется на лечении заболеваний полости рта и зубочелюстной системы.",
+      "gender": "female",
+      "photo": "https://funik.ru/wp-content/uploads/2019/03/6eb74262054f2ae4e511.jpg"
+    },
+    {
+      "id": 49,
+      "lastName": "Петрова",
+      "firstName": "Елизавета",
+      "patronymic": "Андреевна",
+      "position": "Психотерапевт",
+      "department": "Психотерапия",
+      "experience": 15,
+      "rating": 4.8,
+      "bio": "Доктор Петрова - психотерапевт с 15-летним опытом. Специализируется на психотерапевтическом лечении различных психических расстройств.",
+      "gender": "female",
+      "photo": "https://funik.ru/wp-content/uploads/2019/03/6eb74262054f2ae4e511.jpg"
+    },
+    {
+      "id": 50,
+      "lastName": "Королев",
+      "firstName": "Максим",
+      "patronymic": "Дмитриевич",
+      "position": "Оториноларинголог",
+      "department": "Оториноларингология",
+      "experience": 17,
+      "rating": 4.9,
+      "bio": "Доктор Королев - оториноларинголог с 17-летним опытом. Специализируется на диагностике и лечении заболеваний уха, горла и носа.",
+      "gender": "male",
+      "photo": "https://idopk.ru/upload/iblock/deb/oqnundumsm8tjzstbies2i19j4k668wt.jpg"
+    },
+    {
+      "id": 51,
+      "lastName": "Сергеев",
+      "firstName": "Александр",
+      "patronymic": "Владимирович",
+      "position": "Эндокринолог",
+      "department": "Эндокринология",
+      "experience": 18,
+      "rating": 4.9,
+      "bio": "Доктор Сергеев - эндокринолог с 18-летним опытом. Специализируется на диагностике и лечении заболеваний эндокринной системы.",
+      "gender": "male",
+      "photo": "https://idopk.ru/upload/iblock/deb/oqnundumsm8tjzstbies2i19j4k668wt.jpg"
+    }
+  ],
+  "users": [
+    {
+      "password": "йцукен",
+      "phone": "424224242424",
+      "surname": "ацфацфа",
+      "name": "цфафцафц",
+      "patronymic": "ацфафц",
+      "birth": "10.10.2002",
+      "address": "г Москва, Дербеневская наб, д 7 стр 5, офис 512",
+      "snils": "333-333-333-33",
+      "inn": "132808730606",
+      "id": 2
+    },
+    {
+      "password": "пароль",
+      "phone": "+7 (111) 111-11-11",
+      "surname": "афцаф",
+      "name": "цаацфацф",
+      "patronymic": "фцацафацф",
+      "birth": "22.10.2002",
+      "address": "афцафцафцафцафцаф",
+      "snils": "333-333-333-33",
+      "inn": "123456789011",
+      "id": 3
+    },
+    {
+      "password": "пароль",
+      "phone": "71111111111",
+      "surname": "афцаф",
+      "name": "цаацфацф",
+      "patronymic": "фцацафацф",
+      "birth": "22.10.2002",
+      "address": "афцафцафцафцафцаф",
+      "snils": "333-333-333-33",
+      "inn": "123456789011",
+      "id": 4
+    },
+    {
+      "password": "пароль",
+      "phone": "71111111111",
+      "surname": "афцаф",
+      "name": "цаацфацф",
+      "patronymic": "фцацафацф",
+      "birth": "22.10.2002",
+      "address": "афцафцафцафцафцаф",
+      "snils": "333-333-333-33",
+      "inn": "123456789011",
+      "id": 5
+    },
+    {
+      "password": "пароль",
+      "phone": "72222222222",
+      "surname": "аццфацаф",
+      "name": "ацфцафацф",
+      "patronymic": "цфацафацф",
+      "birth": "22.10.2000",
+      "address": "цафцфаафцацфцфцф",
+      "snils": "333-333-333-33",
+      "inn": "123467890122",
+      "id": 6
+    },
+    {
+      "password": "пароль",
+      "phone": "73333333333",
+      "surname": "ацфацфа",
+      "name": "цфацфацф",
+      "patronymic": "ацфацфацф",
+      "birth": "21.10.2000",
+      "address": "ацфацфцафацф",
+      "snils": "333-333-333-33",
+      "inn": "123456789012",
+      "id": 7
+    },
+    {
+      "password": "пароль",
+      "phone": "73333333333",
+      "surname": "ацфацфа",
+      "name": "цфацфацф",
+      "patronymic": "ацфацфацф",
+      "birth": "21.10.2000",
+      "address": "ацфацфцафацф",
+      "snils": "333-333-333-33",
+      "inn": "123456789012",
+      "id": 8
+    },
+    {
+      "password": "пароль",
+      "phone": "73333333333",
+      "surname": "ацфацфа",
+      "name": "цфацфацф",
+      "patronymic": "ацфацфацф",
+      "birth": "21.10.2000",
+      "address": "ацфацфцафацф",
+      "snils": "333-333-333-33",
+      "inn": "123456789012",
+      "id": 9
+    },
+    {
+      "password": "gfhjkm",
+      "phone": "",
+      "id": 10
+    },
+    {
+      "password": "passw",
+      "phone": "74444444444",
+      "surname": "ацфцафцф",
+      "name": "ацфафцацф",
+      "patronymic": "афцафцфц",
+      "birth": "10.10.2000",
+      "address": "ацфацфацфцаф",
+      "snils": "333-333-333-33",
+      "inn": "123456789012",
+      "id": 11
+    },
+    {
+      "password": "111111",
+      "phone": "73333333333",
+      "surname": "фцаацфацфацф",
+      "name": "цафцафцаф",
+      "patronymic": "ацфацф",
+      "birth": "22.10.2000",
+      "address": "афацацфацфацф",
+      "snils": "313-131-313-11",
+      "inn": "313133131313",
+      "id": 12
+    }
+  ],
+  "schedule": [
+    {
+      "doctorId": 1,
+      "appointments": [
+        {
+          "date": "01.01.2024",
+          "time": [
+            {
+              "time": "08:00",
+              "occupied": false
+            },
+            {
+              "time": "08:30",
+              "occupied": false
+            },
+            {
+              "time": "09:00",
+              "occupied": true
+            },
+            {
+              "time": "09:30",
+              "occupied": false
+            },
+            {
+              "time": "10:00",
+              "occupied": false
+            },
+            {
+              "time": "10:30",
+              "occupied": true
+            },
+            {
+              "time": "11:00",
+              "occupied": false
+            },
+            {
+              "time": "11:30",
+              "occupied": false
+            },
+            {
+              "time": "13:00",
+              "occupied": true
+            },
+            {
+              "time": "13:30",
+              "occupied": false
+            },
+            {
+              "time": "14:00",
+              "occupied": false
+            },
+            {
+              "time": "14:30",
+              "occupied": false
+            },
+            {
+              "time": "15:00",
+              "occupied": false
+            },
+            {
+              "time": "15:30",
+              "occupied": false
+            },
+            {
+              "time": "16:00",
+              "occupied": false
+            },
+            {
+              "time": "16:30",
+              "occupied": false
+            },
+            {
+              "time": "17:00",
+              "occupied": false
+            }
+          ]
+        },
+        {
+          "date": "02.01.2024",
+          "time": [
+            {
+              "time": "08:00",
+              "occupied": false
+            },
+            {
+              "time": "08:30",
+              "occupied": false
+            },
+            {
+              "time": "09:00",
+              "occupied": false
+            },
+            {
+              "time": "09:30",
+              "occupied": false
+            },
+            {
+              "time": "10:00",
+              "occupied": false
+            },
+            {
+              "time": "10:30",
+              "occupied": false
+            },
+            {
+              "time": "11:00",
+              "occupied": false
+            },
+            {
+              "time": "11:30",
+              "occupied": false
+            },
+            {
+              "time": "13:00",
+              "occupied": false
+            },
+            {
+              "time": "13:30",
+              "occupied": false
+            },
+            {
+              "time": "14:00",
+              "occupied": false
+            },
+            {
+              "time": "14:30",
+              "occupied": false
+            },
+            {
+              "time": "15:00",
+              "occupied": false
+            },
+            {
+              "time": "15:30",
+              "occupied": false
+            },
+            {
+              "time": "16:00",
+              "occupied": false
+            },
+            {
+              "time": "16:30",
+              "occupied": false
+            },
+            {
+              "time": "17:00",
+              "occupied": false
+            }
+          ]
+        },
+        {
+          "date": "03.01.2024",
+          "time": [
+            {
+              "time": "08:00",
+              "occupied": false
+            },
+            {
+              "time": "08:30",
+              "occupied": false
+            },
+            {
+              "time": "09:00",
+              "occupied": false
+            },
+            {
+              "time": "09:30",
+              "occupied": false
+            },
+            {
+              "time": "10:00",
+              "occupied": false
+            },
+            {
+              "time": "10:30",
+              "occupied": false
+            },
+            {
+              "time": "11:00",
+              "occupied": false
+            },
+            {
+              "time": "11:30",
+              "occupied": false
+            },
+            {
+              "time": "13:00",
+              "occupied": false
+            },
+            {
+              "time": "13:30",
+              "occupied": false
+            },
+            {
+              "time": "14:00",
+              "occupied": false
+            },
+            {
+              "time": "14:30",
+              "occupied": false
+            },
+            {
+              "time": "15:00",
+              "occupied": false
+            },
+            {
+              "time": "15:30",
+              "occupied": false
+            },
+            {
+              "time": "16:00",
+              "occupied": false
+            },
+            {
+              "time": "16:30",
+              "occupied": false
+            },
+            {
+              "time": "17:00",
+              "occupied": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "doctorId": 2,
+      "appointments": [
+        {
+          "date": "01.01.2024",
+          "time": [
+            {
+              "time": "08:00",
+              "occupied": true
+            },
+            {
+              "time": "08:30",
+              "occupied": false
+            },
+            {
+              "time": "09:00",
+              "occupied": false
+            },
+            {
+              "time": "09:30",
+              "occupied": true
+            },
+            {
+              "time": "10:00",
+              "occupied": false
+            },
+            {
+              "time": "10:30",
+              "occupied": false
+            },
+            {
+              "time": "11:00",
+              "occupied": true
+            },
+            {
+              "time": "11:30",
+              "occupied": false
+            },
+            {
+              "time": "13:00",
+              "occupied": false
+            },
+            {
+              "time": "13:30",
+              "occupied": true
+            },
+            {
+              "time": "14:00",
+              "occupied": false
+            },
+            {
+              "time": "14:30",
+              "occupied": false
+            },
+            {
+              "time": "15:00",
+              "occupied": false
+            },
+            {
+              "time": "15:30",
+              "occupied": false
+            },
+            {
+              "time": "16:00",
+              "occupied": true
+            },
+            {
+              "time": "16:30",
+              "occupied": false
+            },
+            {
+              "time": "17:00",
+              "occupied": false
+            }
+          ]
+        },
+        {
+          "date": "02.01.2024",
+          "time": [
+            {
+              "time": "08:00",
+              "occupied": false
+            },
+            {
+              "time": "08:30",
+              "occupied": true
+            },
+            {
+              "time": "09:00",
+              "occupied": false
+            },
+            {
+              "time": "09:30",
+              "occupied": false
+            },
+            {
+              "time": "10:00",
+              "occupied": false
+            },
+            {
+              "time": "10:30",
+              "occupied": false
+            },
+            {
+              "time": "11:00",
+              "occupied": false
+            },
+            {
+              "time": "11:30",
+              "occupied": false
+            },
+            {
+              "time": "13:00",
+              "occupied": false
+            },
+            {
+              "time": "13:30",
+              "occupied": false
+            },
+            {
+              "time": "14:00",
+              "occupied": false
+            },
+            {
+              "time": "14:30",
+              "occupied": false
+            },
+            {
+              "time": "15:00",
+              "occupied": true
+            },
+            {
+              "time": "15:30",
+              "occupied": false
+            },
+            {
+              "time": "16:00",
+              "occupied": false
+            },
+            {
+              "time": "16:30",
+              "occupied": false
+            },
+            {
+              "time": "17:00",
+              "occupied": false
+            }
+          ]
+        },
+        {
+          "date": "03.01.2024",
+          "time": [
+            {
+              "time": "08:00",
+              "occupied": false
+            },
+            {
+              "time": "08:30",
+              "occupied": false
+            },
+            {
+              "time": "09:00",
+              "occupied": false
+            },
+            {
+              "time": "09:30",
+              "occupied": false
+            },
+            {
+              "time": "10:00",
+              "occupied": false
+            },
+            {
+              "time": "10:30",
+              "occupied": false
+            },
+            {
+              "time": "11:00",
+              "occupied": false
+            },
+            {
+              "time": "11:30",
+              "occupied": false
+            },
+            {
+              "time": "13:00",
+              "occupied": false
+            },
+            {
+              "time": "13:30",
+              "occupied": false
+            },
+            {
+              "time": "14:00",
+              "occupied": false
+            },
+            {
+              "time": "14:30",
+              "occupied": false
+            },
+            {
+              "time": "15:00",
+              "occupied": false
+            },
+            {
+              "time": "15:30",
+              "occupied": false
+            },
+            {
+              "time": "16:00",
+              "occupied": false
+            },
+            {
+              "time": "16:30",
+              "occupied": false
+            },
+            {
+              "time": "17:00",
+              "occupied": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "doctorId": 3,
+      "appointments": [
+        {
+          "date": "01.01.2024",
+          "time": [
+            {
+              "time": "08:00",
+              "occupied": true
+            },
+            {
+              "time": "08:30",
+              "occupied": false
+            },
+            {
+              "time": "09:00",
+              "occupied": false
+            },
+            {
+              "time": "09:30",
+              "occupied": true
+            },
+            {
+              "time": "10:00",
+              "occupied": false
+            },
+            {
+              "time": "10:30",
+              "occupied": false
+            },
+            {
+              "time": "11:00",
+              "occupied": true
+            },
+            {
+              "time": "11:30",
+              "occupied": false
+            },
+            {
+              "time": "13:00",
+              "occupied": true
+            },
+            {
+              "time": "13:30",
+              "occupied": false
+            },
+            {
+              "time": "14:00",
+              "occupied": false
+            },
+            {
+              "time": "14:30",
+              "occupied": false
+            },
+            {
+              "time": "15:00",
+              "occupied": false
+            },
+            {
+              "time": "15:30",
+              "occupied": false
+            },
+            {
+              "time": "16:00",
+              "occupied": true
+            },
+            {
+              "time": "16:30",
+              "occupied": false
+            },
+            {
+              "time": "17:00",
+              "occupied": false
+            }
+          ]
+        },
+        {
+          "date": "02.01.2024",
+          "time": [
+            {
+              "time": "08:00",
+              "occupied": false
+            },
+            {
+              "time": "08:30",
+              "occupied": true
+            },
+            {
+              "time": "09:00",
+              "occupied": false
+            },
+            {
+              "time": "09:30",
+              "occupied": false
+            },
+            {
+              "time": "10:00",
+              "occupied": false
+            },
+            {
+              "time": "10:30",
+              "occupied": false
+            },
+            {
+              "time": "11:00",
+              "occupied": false
+            },
+            {
+              "time": "11:30",
+              "occupied": false
+            },
+            {
+              "time": "13:00",
+              "occupied": false
+            },
+            {
+              "time": "13:30",
+              "occupied": false
+            },
+            {
+              "time": "14:00",
+              "occupied": false
+            },
+            {
+              "time": "14:30",
+              "occupied": false
+            },
+            {
+              "time": "15:00",
+              "occupied": false
+            },
+            {
+              "time": "15:30",
+              "occupied": false
+            },
+            {
+              "time": "16:00",
+              "occupied": false
+            },
+            {
+              "time": "16:30",
+              "occupied": false
+            },
+            {
+              "time": "17:00",
+              "occupied": false
+            }
+          ]
+        },
+        {
+          "date": "03.01.2024",
+          "time": [
+            {
+              "time": "08:00",
+              "occupied": false
+            },
+            {
+              "time": "08:30",
+              "occupied": false
+            },
+            {
+              "time": "09:00",
+              "occupied": false
+            },
+            {
+              "time": "09:30",
+              "occupied": false
+            },
+            {
+              "time": "10:00",
+              "occupied": false
+            },
+            {
+              "time": "10:30",
+              "occupied": false
+            },
+            {
+              "time": "11:00",
+              "occupied": false
+            },
+            {
+              "time": "11:30",
+              "occupied": false
+            },
+            {
+              "time": "13:00",
+              "occupied": false
+            },
+            {
+              "time": "13:30",
+              "occupied": false
+            },
+            {
+              "time": "14:00",
+              "occupied": false
+            },
+            {
+              "time": "14:30",
+              "occupied": false
+            },
+            {
+              "time": "15:00",
+              "occupied": false
+            },
+            {
+              "time": "15:30",
+              "occupied": false
+            },
+            {
+              "time": "16:00",
+              "occupied": false
+            },
+            {
+              "time": "16:30",
+              "occupied": false
+            },
+            {
+              "time": "17:00",
+              "occupied": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "doctorId": 4,
+      "appointments": [
+        {
+          "date": "01.01.2024",
+          "time": [
+            {
+              "time": "08:00",
+              "occupied": false
+            },
+            {
+              "time": "08:30",
+              "occupied": true
+            },
+            {
+              "time": "09:00",
+              "occupied": false
+            },
+            {
+              "time": "09:30",
+              "occupied": false
+            },
+            {
+              "time": "10:00",
+              "occupied": false
+            },
+            {
+              "time": "10:30",
+              "occupied": false
+            },
+            {
+              "time": "11:00",
+              "occupied": false
+            },
+            {
+              "time": "11:30",
+              "occupied": false
+            },
+            {
+              "time": "13:00",
+              "occupied": true
+            },
+            {
+              "time": "13:30",
+              "occupied": false
+            },
+            {
+              "time": "14:00",
+              "occupied": false
+            },
+            {
+              "time": "14:30",
+              "occupied": false
+            },
+            {
+              "time": "15:00",
+              "occupied": false
+            },
+            {
+              "time": "15:30",
+              "occupied": false
+            },
+            {
+              "time": "16:00",
+              "occupied": false
+            },
+            {
+              "time": "16:30",
+              "occupied": false
+            },
+            {
+              "time": "17:00",
+              "occupied": false
+            }
+          ]
+        },
+        {
+          "date": "02.01.2024",
+          "time": [
+            {
+              "time": "08:00",
+              "occupied": false
+            },
+            {
+              "time": "08:30",
+              "occupied": false
+            },
+            {
+              "time": "09:00",
+              "occupied": false
+            },
+            {
+              "time": "09:30",
+              "occupied": false
+            },
+            {
+              "time": "10:00",
+              "occupied": false
+            },
+            {
+              "time": "10:30",
+              "occupied": false
+            },
+            {
+              "time": "11:00",
+              "occupied": false
+            },
+            {
+              "time": "11:30",
+              "occupied": false
+            },
+            {
+              "time": "13:00",
+              "occupied": false
+            },
+            {
+              "time": "13:30",
+              "occupied": false
+            },
+            {
+              "time": "14:00",
+              "occupied": false
+            },
+            {
+              "time": "14:30",
+              "occupied": false
+            },
+            {
+              "time": "15:00",
+              "occupied": false
+            },
+            {
+              "time": "15:30",
+              "occupied": false
+            },
+            {
+              "time": "16:00",
+              "occupied": false
+            },
+            {
+              "time": "16:30",
+              "occupied": false
+            },
+            {
+              "time": "17:00",
+              "occupied": false
+            }
+          ]
+        },
+        {
+          "date": "03.01.2024",
+          "time": [
+            {
+              "time": "08:00",
+              "occupied": false
+            },
+            {
+              "time": "08:30",
+              "occupied": false
+            },
+            {
+              "time": "09:00",
+              "occupied": false
+            },
+            {
+              "time": "09:30",
+              "occupied": false
+            },
+            {
+              "time": "10:00",
+              "occupied": false
+            },
+            {
+              "time": "10:30",
+              "occupied": false
+            },
+            {
+              "time": "11:00",
+              "occupied": false
+            },
+            {
+              "time": "11:30",
+              "occupied": false
+            },
+            {
+              "time": "13:00",
+              "occupied": false
+            },
+            {
+              "time": "13:30",
+              "occupied": false
+            },
+            {
+              "time": "14:00",
+              "occupied": false
+            },
+            {
+              "time": "14:30",
+              "occupied": false
+            },
+            {
+              "time": "15:00",
+              "occupied": false
+            },
+            {
+              "time": "15:30",
+              "occupied": false
+            },
+            {
+              "time": "16:00",
+              "occupied": false
+            },
+            {
+              "time": "16:30",
+              "occupied": false
+            },
+            {
+              "time": "17:00",
+              "occupied": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "doctorId": 5,
+      "appointments": [
+        {
+          "date": "01.01.2024",
+          "time": [
+            {
+              "time": "08:00",
+              "occupied": true
+            },
+            {
+              "time": "08:30",
+              "occupied": false
+            },
+            {
+              "time": "09:00",
+              "occupied": false
+            },
+            {
+              "time": "09:30",
+              "occupied": true
+            },
+            {
+              "time": "10:00",
+              "occupied": false
+            },
+            {
+              "time": "10:30",
+              "occupied": false
+            },
+            {
+              "time": "11:00",
+              "occupied": true
+            },
+            {
+              "time": "11:30",
+              "occupied": false
+            },
+            {
+              "time": "13:00",
+              "occupied": true
+            },
+            {
+              "time": "13:30",
+              "occupied": false
+            },
+            {
+              "time": "14:00",
+              "occupied": false
+            },
+            {
+              "time": "14:30",
+              "occupied": false
+            },
+            {
+              "time": "15:00",
+              "occupied": false
+            },
+            {
+              "time": "15:30",
+              "occupied": false
+            },
+            {
+              "time": "16:00",
+              "occupied": true
+            },
+            {
+              "time": "16:30",
+              "occupied": false
+            },
+            {
+              "time": "17:00",
+              "occupied": false
+            }
+          ]
+        },
+        {
+          "date": "02.01.2024",
+          "time": [
+            {
+              "time": "08:00",
+              "occupied": false
+            },
+            {
+              "time": "08:30",
+              "occupied": true
+            },
+            {
+              "time": "09:00",
+              "occupied": false
+            },
+            {
+              "time": "09:30",
+              "occupied": false
+            },
+            {
+              "time": "10:00",
+              "occupied": false
+            },
+            {
+              "time": "10:30",
+              "occupied": false
+            },
+            {
+              "time": "11:00",
+              "occupied": false
+            },
+            {
+              "time": "11:30",
+              "occupied": false
+            },
+            {
+              "time": "13:00",
+              "occupied": false
+            },
+            {
+              "time": "13:30",
+              "occupied": false
+            },
+            {
+              "time": "14:00",
+              "occupied": false
+            },
+            {
+              "time": "14:30",
+              "occupied": false
+            },
+            {
+              "time": "15:00",
+              "occupied": false
+            },
+            {
+              "time": "15:30",
+              "occupied": false
+            },
+            {
+              "time": "16:00",
+              "occupied": false
+            },
+            {
+              "time": "16:30",
+              "occupied": false
+            },
+            {
+              "time": "17:00",
+              "occupied": false
+            }
+          ]
+        },
+        {
+          "date": "03.01.2024",
+          "time": [
+            {
+              "time": "08:00",
+              "occupied": false
+            },
+            {
+              "time": "08:30",
+              "occupied": false
+            },
+            {
+              "time": "09:00",
+              "occupied": false
+            },
+            {
+              "time": "09:30",
+              "occupied": false
+            },
+            {
+              "time": "10:00",
+              "occupied": false
+            },
+            {
+              "time": "10:30",
+              "occupied": false
+            },
+            {
+              "time": "11:00",
+              "occupied": false
+            },
+            {
+              "time": "11:30",
+              "occupied": false
+            },
+            {
+              "time": "13:00",
+              "occupied": false
+            },
+            {
+              "time": "13:30",
+              "occupied": false
+            },
+            {
+              "time": "14:00",
+              "occupied": false
+            },
+            {
+              "time": "14:30",
+              "occupied": false
+            },
+            {
+              "time": "15:00",
+              "occupied": false
+            },
+            {
+              "time": "15:30",
+              "occupied": false
+            },
+            {
+              "time": "16:00",
+              "occupied": false
+            },
+            {
+              "time": "16:30",
+              "occupied": false
+            },
+            {
+              "time": "17:00",
+              "occupied": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "doctorId": 6,
+      "appointments": [
+        {
+          "date": "01.01.2024",
+          "time": [
+            {
+              "time": "08:00",
+              "occupied": false
+            },
+            {
+              "time": "08:30",
+              "occupied": true
+            },
+            {
+              "time": "09:00",
+              "occupied": false
+            },
+            {
+              "time": "09:30",
+              "occupied": false
+            },
+            {
+              "time": "10:00",
+              "occupied": false
+            },
+            {
+              "time": "10:30",
+              "occupied": false
+            },
+            {
+              "time": "11:00",
+              "occupied": false
+            },
+            {
+              "time": "11:30",
+              "occupied": false
+            },
+            {
+              "time": "13:00",
+              "occupied": true
+            },
+            {
+              "time": "13:30",
+              "occupied": false
+            },
+            {
+              "time": "14:00",
+              "occupied": false
+            },
+            {
+              "time": "14:30",
+              "occupied": false
+            },
+            {
+              "time": "15:00",
+              "occupied": false
+            },
+            {
+              "time": "15:30",
+              "occupied": false
+            },
+            {
+              "time": "16:00",
+              "occupied": false
+            },
+            {
+              "time": "16:30",
+              "occupied": false
+            },
+            {
+              "time": "17:00",
+              "occupied": false
+            }
+          ]
+        },
+        {
+          "date": "02.01.2024",
+          "time": [
+            {
+              "time": "08:00",
+              "occupied": false
+            },
+            {
+              "time": "08:30",
+              "occupied": false
+            },
+            {
+              "time": "09:00",
+              "occupied": false
+            },
+            {
+              "time": "09:30",
+              "occupied": false
+            },
+            {
+              "time": "10:00",
+              "occupied": false
+            },
+            {
+              "time": "10:30",
+              "occupied": false
+            },
+            {
+              "time": "11:00",
+              "occupied": false
+            },
+            {
+              "time": "11:30",
+              "occupied": false
+            },
+            {
+              "time": "13:00",
+              "occupied": false
+            },
+            {
+              "time": "13:30",
+              "occupied": false
+            },
+            {
+              "time": "14:00",
+              "occupied": false
+            },
+            {
+              "time": "14:30",
+              "occupied": false
+            },
+            {
+              "time": "15:00",
+              "occupied": false
+            },
+            {
+              "time": "15:30",
+              "occupied": false
+            },
+            {
+              "time": "16:00",
+              "occupied": false
+            },
+            {
+              "time": "16:30",
+              "occupied": false
+            },
+            {
+              "time": "17:00",
+              "occupied": false
+            }
+          ]
+        },
+        {
+          "date": "03.01.2024",
+          "time": [
+            {
+              "time": "08:00",
+              "occupied": false
+            },
+            {
+              "time": "08:30",
+              "occupied": false
+            },
+            {
+              "time": "09:00",
+              "occupied": false
+            },
+            {
+              "time": "09:30",
+              "occupied": false
+            },
+            {
+              "time": "10:00",
+              "occupied": false
+            },
+            {
+              "time": "10:30",
+              "occupied": false
+            },
+            {
+              "time": "11:00",
+              "occupied": false
+            },
+            {
+              "time": "11:30",
+              "occupied": false
+            },
+            {
+              "time": "13:00",
+              "occupied": false
+            },
+            {
+              "time": "13:30",
+              "occupied": false
+            },
+            {
+              "time": "14:00",
+              "occupied": false
+            },
+            {
+              "time": "14:30",
+              "occupied": false
+            },
+            {
+              "time": "15:00",
+              "occupied": false
+            },
+            {
+              "time": "15:30",
+              "occupied": false
+            },
+            {
+              "time": "16:00",
+              "occupied": false
+            },
+            {
+              "time": "16:30",
+              "occupied": false
+            },
+            {
+              "time": "17:00",
+              "occupied": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "doctorId": 7,
+      "appointments": [
+        {
+          "date": "01.01.2024",
+          "time": [
+            {
+              "time": "08:00",
+              "occupied": false
+            },
+            {
+              "time": "08:30",
+              "occupied": true
+            },
+            {
+              "time": "09:00",
+              "occupied": false
+            },
+            {
+              "time": "09:30",
+              "occupied": false
+            },
+            {
+              "time": "10:00",
+              "occupied": false
+            },
+            {
+              "time": "10:30",
+              "occupied": false
+            },
+            {
+              "time": "11:00",
+              "occupied": false
+            },
+            {
+              "time": "11:30",
+              "occupied": false
+            },
+            {
+              "time": "13:00",
+              "occupied": false
+            },
+            {
+              "time": "13:30",
+              "occupied": false
+            },
+            {
+              "time": "14:00",
+              "occupied": false
+            },
+            {
+              "time": "14:30",
+              "occupied": false
+            },
+            {
+              "time": "15:00",
+              "occupied": false
+            },
+            {
+              "time": "15:30",
+              "occupied": false
+            },
+            {
+              "time": "16:00",
+              "occupied": false
+            },
+            {
+              "time": "16:30",
+              "occupied": false
+            },
+            {
+              "time": "17:00",
+              "occupied": false
+            }
+          ]
+        },
+        {
+          "date": "02.01.2024",
+          "time": [
+            {
+              "time": "08:00",
+              "occupied": false
+            },
+            {
+              "time": "08:30",
+              "occupied": false
+            },
+            {
+              "time": "09:00",
+              "occupied": false
+            },
+            {
+              "time": "09:30",
+              "occupied": false
+            },
+            {
+              "time": "10:00",
+              "occupied": false
+            },
+            {
+              "time": "10:30",
+              "occupied": false
+            },
+            {
+              "time": "11:00",
+              "occupied": false
+            },
+            {
+              "time": "11:30",
+              "occupied": false
+            },
+            {
+              "time": "13:00",
+              "occupied": false
+            },
+            {
+              "time": "13:30",
+              "occupied": false
+            },
+            {
+              "time": "14:00",
+              "occupied": false
+            },
+            {
+              "time": "14:30",
+              "occupied": false
+            },
+            {
+              "time": "15:00",
+              "occupied": false
+            },
+            {
+              "time": "15:30",
+              "occupied": false
+            },
+            {
+              "time": "16:00",
+              "occupied": false
+            },
+            {
+              "time": "16:30",
+              "occupied": false
+            },
+            {
+              "time": "17:00",
+              "occupied": false
+            }
+          ]
+        },
+        {
+          "date": "03.01.2024",
+          "time": [
+            {
+              "time": "08:00",
+              "occupied": false
+            },
+            {
+              "time": "08:30",
+              "occupied": false
+            },
+            {
+              "time": "09:00",
+              "occupied": false
+            },
+            {
+              "time": "09:30",
+              "occupied": false
+            },
+            {
+              "time": "10:00",
+              "occupied": false
+            },
+            {
+              "time": "10:30",
+              "occupied": false
+            },
+            {
+              "time": "11:00",
+              "occupied": false
+            },
+            {
+              "time": "11:30",
+              "occupied": false
+            },
+            {
+              "time": "13:00",
+              "occupied": false
+            },
+            {
+              "time": "13:30",
+              "occupied": false
+            },
+            {
+              "time": "14:00",
+              "occupied": false
+            },
+            {
+              "time": "14:30",
+              "occupied": false
+            },
+            {
+              "time": "15:00",
+              "occupied": false
+            },
+            {
+              "time": "15:30",
+              "occupied": false
+            },
+            {
+              "time": "16:00",
+              "occupied": false
+            },
+            {
+              "time": "16:30",
+              "occupied": false
+            },
+            {
+              "time": "17:00",
+              "occupied": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "doctorId": 8,
+      "appointments": [
+        {
+          "date": "01.01.2024",
+          "time": [
+            {
+              "time": "08:00",
+              "occupied": true
+            },
+            {
+              "time": "08:30",
+              "occupied": false
+            },
+            {
+              "time": "09:00",
+              "occupied": false
+            },
+            {
+              "time": "09:30",
+              "occupied": true
+            },
+            {
+              "time": "10:00",
+              "occupied": false
+            },
+            {
+              "time": "10:30",
+              "occupied": false
+            },
+            {
+              "time": "11:00",
+              "occupied": true
+            },
+            {
+              "time": "11:30",
+              "occupied": false
+            },
+            {
+              "time": "13:00",
+              "occupied": true
+            },
+            {
+              "time": "13:30",
+              "occupied": false
+            },
+            {
+              "time": "14:00",
+              "occupied": false
+            },
+            {
+              "time": "14:30",
+              "occupied": false
+            },
+            {
+              "time": "15:00",
+              "occupied": false
+            },
+            {
+              "time": "15:30",
+              "occupied": false
+            },
+            {
+              "time": "16:00",
+              "occupied": true
+            },
+            {
+              "time": "16:30",
+              "occupied": false
+            },
+            {
+              "time": "17:00",
+              "occupied": false
+            }
+          ]
+        },
+        {
+          "date": "02.01.2024",
+          "time": [
+            {
+              "time": "08:00",
+              "occupied": false
+            },
+            {
+              "time": "08:30",
+              "occupied": true
+            },
+            {
+              "time": "09:00",
+              "occupied": false
+            },
+            {
+              "time": "09:30",
+              "occupied": false
+            },
+            {
+              "time": "10:00",
+              "occupied": false
+            },
+            {
+              "time": "10:30",
+              "occupied": false
+            },
+            {
+              "time": "11:00",
+              "occupied": false
+            },
+            {
+              "time": "11:30",
+              "occupied": false
+            },
+            {
+              "time": "13:00",
+              "occupied": false
+            },
+            {
+              "time": "13:30",
+              "occupied": false
+            },
+            {
+              "time": "14:00",
+              "occupied": false
+            },
+            {
+              "time": "14:30",
+              "occupied": false
+            },
+            {
+              "time": "15:00",
+              "occupied": true
+            },
+            {
+              "time": "15:30",
+              "occupied": false
+            },
+            {
+              "time": "16:00",
+              "occupied": false
+            },
+            {
+              "time": "16:30",
+              "occupied": false
+            },
+            {
+              "time": "17:00",
+              "occupied": false
+            }
+          ]
+        },
+        {
+          "date": "03.01.2024",
+          "time": [
+            {
+              "time": "08:00",
+              "occupied": false
+            },
+            {
+              "time": "08:30",
+              "occupied": false
+            },
+            {
+              "time": "09:00",
+              "occupied": false
+            },
+            {
+              "time": "09:30",
+              "occupied": false
+            },
+            {
+              "time": "10:00",
+              "occupied": false
+            },
+            {
+              "time": "10:30",
+              "occupied": false
+            },
+            {
+              "time": "11:00",
+              "occupied": false
+            },
+            {
+              "time": "11:30",
+              "occupied": false
+            },
+            {
+              "time": "13:00",
+              "occupied": false
+            },
+            {
+              "time": "13:30",
+              "occupied": false
+            },
+            {
+              "time": "14:00",
+              "occupied": false
+            },
+            {
+              "time": "14:30",
+              "occupied": false
+            },
+            {
+              "time": "15:00",
+              "occupied": false
+            },
+            {
+              "time": "15:30",
+              "occupied": false
+            },
+            {
+              "time": "16:00",
+              "occupied": false
+            },
+            {
+              "time": "16:30",
+              "occupied": false
+            },
+            {
+              "time": "17:00",
+              "occupied": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "doctorId": 9,
+      "appointments": [
+        {
+          "date": "01.01.2024",
+          "time": [
+            {
+              "time": "08:00",
+              "occupied": true
+            },
+            {
+              "time": "08:30",
+              "occupied": false
+            },
+            {
+              "time": "09:00",
+              "occupied": false
+            },
+            {
+              "time": "09:30",
+              "occupied": true
+            },
+            {
+              "time": "10:00",
+              "occupied": false
+            },
+            {
+              "time": "10:30",
+              "occupied": false
+            },
+            {
+              "time": "11:00",
+              "occupied": true
+            },
+            {
+              "time": "11:30",
+              "occupied": false
+            },
+            {
+              "time": "13:00",
+              "occupied": true
+            },
+            {
+              "time": "13:30",
+              "occupied": false
+            },
+            {
+              "time": "14:00",
+              "occupied": false
+            },
+            {
+              "time": "14:30",
+              "occupied": false
+            },
+            {
+              "time": "15:00",
+              "occupied": false
+            },
+            {
+              "time": "15:30",
+              "occupied": false
+            },
+            {
+              "time": "16:00",
+              "occupied": true
+            },
+            {
+              "time": "16:30",
+              "occupied": false
+            },
+            {
+              "time": "17:00",
+              "occupied": false
+            }
+          ]
+        },
+        {
+          "date": "02.01.2024",
+          "time": [
+            {
+              "time": "08:00",
+              "occupied": false
+            },
+            {
+              "time": "08:30",
+              "occupied": true
+            },
+            {
+              "time": "09:00",
+              "occupied": false
+            },
+            {
+              "time": "09:30",
+              "occupied": false
+            },
+            {
+              "time": "10:00",
+              "occupied": false
+            },
+            {
+              "time": "10:30",
+              "occupied": false
+            },
+            {
+              "time": "11:00",
+              "occupied": false
+            },
+            {
+              "time": "11:30",
+              "occupied": false
+            },
+            {
+              "time": "13:00",
+              "occupied": false
+            },
+            {
+              "time": "13:30",
+              "occupied": false
+            },
+            {
+              "time": "14:00",
+              "occupied": false
+            },
+            {
+              "time": "14:30",
+              "occupied": false
+            },
+            {
+              "time": "15:00",
+              "occupied": true
+            },
+            {
+              "time": "15:30",
+              "occupied": false
+            },
+            {
+              "time": "16:00",
+              "occupied": false
+            },
+            {
+              "time": "16:30",
+              "occupied": false
+            },
+            {
+              "time": "17:00",
+              "occupied": false
+            }
+          ]
+        },
+        {
+          "date": "03.01.2024",
+          "time": [
+            {
+              "time": "08:00",
+              "occupied": false
+            },
+            {
+              "time": "08:30",
+              "occupied": false
+            },
+            {
+              "time": "09:00",
+              "occupied": false
+            },
+            {
+              "time": "09:30",
+              "occupied": false
+            },
+            {
+              "time": "10:00",
+              "occupied": false
+            },
+            {
+              "time": "10:30",
+              "occupied": false
+            },
+            {
+              "time": "11:00",
+              "occupied": false
+            },
+            {
+              "time": "11:30",
+              "occupied": false
+            },
+            {
+              "time": "13:00",
+              "occupied": false
+            },
+            {
+              "time": "13:30",
+              "occupied": false
+            },
+            {
+              "time": "14:00",
+              "occupied": false
+            },
+            {
+              "time": "14:30",
+              "occupied": false
+            },
+            {
+              "time": "15:00",
+              "occupied": false
+            },
+            {
+              "time": "15:30",
+              "occupied": false
+            },
+            {
+              "time": "16:00",
+              "occupied": false
+            },
+            {
+              "time": "16:30",
+              "occupied": false
+            },
+            {
+              "time": "17:00",
+              "occupied": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "doctorId": 10,
+      "appointments": [
+        {
+          "date": "01.01.2024",
+          "time": [
+            {
+              "time": "08:00",
+              "occupied": true
+            },
+            {
+              "time": "08:30",
+              "occupied": false
+            },
+            {
+              "time": "09:00",
+              "occupied": false
+            },
+            {
+              "time": "09:30",
+              "occupied": true
+            },
+            {
+              "time": "10:00",
+              "occupied": false
+            },
+            {
+              "time": "10:30",
+              "occupied": false
+            },
+            {
+              "time": "11:00",
+              "occupied": true
+            },
+            {
+              "time": "11:30",
+              "occupied": false
+            },
+            {
+              "time": "13:00",
+              "occupied": true
+            },
+            {
+              "time": "13:30",
+              "occupied": false
+            },
+            {
+              "time": "14:00",
+              "occupied": false
+            },
+            {
+              "time": "14:30",
+              "occupied": false
+            },
+            {
+              "time": "15:00",
+              "occupied": false
+            },
+            {
+              "time": "15:30",
+              "occupied": false
+            },
+            {
+              "time": "16:00",
+              "occupied": true
+            },
+            {
+              "time": "16:30",
+              "occupied": false
+            },
+            {
+              "time": "17:00",
+              "occupied": false
+            }
+          ]
+        },
+        {
+          "date": "02.01.2024",
+          "time": [
+            {
+              "time": "08:00",
+              "occupied": false
+            },
+            {
+              "time": "08:30",
+              "occupied": true
+            },
+            {
+              "time": "09:00",
+              "occupied": false
+            },
+            {
+              "time": "09:30",
+              "occupied": false
+            },
+            {
+              "time": "10:00",
+              "occupied": false
+            },
+            {
+              "time": "10:30",
+              "occupied": false
+            },
+            {
+              "time": "11:00",
+              "occupied": false
+            },
+            {
+              "time": "11:30",
+              "occupied": false
+            },
+            {
+              "time": "13:00",
+              "occupied": false
+            },
+            {
+              "time": "13:30",
+              "occupied": false
+            },
+            {
+              "time": "14:00",
+              "occupied": false
+            },
+            {
+              "time": "14:30",
+              "occupied": false
+            },
+            {
+              "time": "15:00",
+              "occupied": true
+            },
+            {
+              "time": "15:30",
+              "occupied": false
+            },
+            {
+              "time": "16:00",
+              "occupied": false
+            },
+            {
+              "time": "16:30",
+              "occupied": false
+            },
+            {
+              "time": "17:00",
+              "occupied": false
+            }
+          ]
+        },
+        {
+          "date": "03.01.2024",
+          "time": [
+            {
+              "time": "08:00",
+              "occupied": false
+            },
+            {
+              "time": "08:30",
+              "occupied": false
+            },
+            {
+              "time": "09:00",
+              "occupied": false
+            },
+            {
+              "time": "09:30",
+              "occupied": false
+            },
+            {
+              "time": "10:00",
+              "occupied": false
+            },
+            {
+              "time": "10:30",
+              "occupied": false
+            },
+            {
+              "time": "11:00",
+              "occupied": false
+            },
+            {
+              "time": "11:30",
+              "occupied": false
+            },
+            {
+              "time": "13:00",
+              "occupied": false
+            },
+            {
+              "time": "13:30",
+              "occupied": false
+            },
+            {
+              "time": "14:00",
+              "occupied": false
+            },
+            {
+              "time": "14:30",
+              "occupied": false
+            },
+            {
+              "time": "15:00",
+              "occupied": false
+            },
+            {
+              "time": "15:30",
+              "occupied": false
+            },
+            {
+              "time": "16:00",
+              "occupied": false
+            },
+            {
+              "time": "16:30",
+              "occupied": false
+            },
+            {
+              "time": "17:00",
+              "occupied": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "doctorID": 1,
+      "reviews": [
+        {
+          "id": 1,
+          "patientName": "Екатерина Смирнова",
+          "rating": 5,
+          "comment": "Доктор Иванов Иван Иванович профессионал высокого уровня! Внимательный, доброжелательный, всегда готов выслушать и дать подробные объяснения. Я очень довольна его работой."
+        },
+        {
+          "id": 2,
+          "patientName": "Алексей Петров",
+          "rating": 4,
+          "comment": "Отличный врач! Лечение, предложенное доктором Ивановым, дало положительные результаты. Единственное, что можно улучшить, это время ожидания в клинике."
+        },
+        {
+          "id": 3,
+          "patientName": "Мария Иванова",
+          "rating": 5,
+          "comment": "Я благодарна доктору Иванову за его профессионализм и заботу. Он всегда готов помочь и найти оптимальное решение проблемы. Очень рекомендую!"
+        },
+        {
+          "id": 4,
+          "patientName": "Анна Николаева",
+          "rating": 4,
+          "comment": "Доктор Иванов - врач с золотыми руками! Оперативно поставил диагноз и предложил эффективное лечение. Я довольна результатом и благодарна за профессионализм."
+        },
+        {
+          "id": 5,
+          "patientName": "Сергей Игнатов",
+          "rating": 5,
+          "comment": "Иван Иванович - мой семейный врач уже несколько лет. Очень ответственный и пунктуальный. Всегда находит время для своих пациентов. Рекомендую!"
+        },
+        {
+          "id": 6,
+          "patientName": "Ольга Кузнецова",
+          "rating": 3,
+          "comment": "Доктор Иванов врач с большим опытом, но иногда кажется, что он спешит. Несмотря на это, результаты его лечения впечатляют. Надеюсь на улучшение."
+        },
+        {
+          "id": 7,
+          "patientName": "Денис Соколов",
+          "rating": 5,
+          "comment": "Отличный специалист! Доктор Иванов всегда готов выслушать и объяснить все детали лечения. Благодаря ему я чувствую себя гораздо лучше."
+        }
+      ]
+    },
+    {
+      "doctorID": 2,
+      "reviews": [
+        {
+          "id": 8,
+          "patientName": "Игорь Михайлов",
+          "rating": 5,
+          "comment": "Доктор Петрова - выдающийся хирург! Операция прошла без осложнений, и врач всегда была на связи после процедуры. Очень благодарен за профессионализм!"
+        },
+        {
+          "id": 9,
+          "patientName": "Алена Шевченко",
+          "rating": 4,
+          "comment": "Мне повезло попасть к доктору Петровой. Она внимательно выслушала мои проблемы и предложила наилучший путь лечения. Хирург высокого класса."
+        },
+        {
+          "id": 10,
+          "patientName": "Владимир Зайцев",
+          "rating": 3,
+          "comment": "Операция прошла успешно, но послеоперационный уход мог бы быть лучше. Врач не всегда была доступна для вопросов в период восстановления."
+        }
+      ]
+    }
+  ],
+  "services": [
+    {
+      "nameEN": "emergency_services",
+      "nameRU": "Скорая помощь и неотложная медицинская помощь",
+      "services": [
+        {
+          "service_name": "Скорая помощь",
+          "is_free": true
+        },
+        {
+          "service_name": "Эвакуация с места происшествия",
+          "is_free": false,
+          "price": 500
+        },
+        {
+          "service_name": "Первая медицинская помощь",
+          "is_free": true
+        },
+        {
+          "service_name": "Кардиологическая реанимация",
+          "is_free": false,
+          "price": 1000
+        },
+        {
+          "service_name": "Травматологическая помощь",
+          "is_free": true
+        }
+      ]
+    },
+    {
+      "nameEN": "primary_care",
+      "nameRU": "Первичная медико-санитарная помощь",
+      "services": [
+        {
+          "service_name": "Поликлиника",
+          "is_free": false,
+          "price": 500
+        },
+        {
+          "service_name": "Профилактический осмотр",
+          "is_free": false,
+          "price": 300
+        },
+        {
+          "service_name": "Консультация терапевта",
+          "is_free": false,
+          "price": 200
+        },
+        {
+          "service_name": "Измерение артериального давления",
+          "is_free": true
+        },
+        {
+          "service_name": "Лечение простуды",
+          "is_free": false,
+          "price": 150
+        }
+      ]
+    },
+    {
+      "nameEN": "hospitalization",
+      "nameRU": "Госпитализация и стационарное лечение",
+      "services": [
+        {
+          "service_name": "Стационарное лечение",
+          "is_free": false,
+          "price": 2000
+        },
+        {
+          "service_name": "Индивидуальная палата",
+          "is_free": false,
+          "price": 1500
+        },
+        {
+          "service_name": "Инфузионная терапия",
+          "is_free": false,
+          "price": 800
+        },
+        {
+          "service_name": "Хирургическое отделение",
+          "is_free": false,
+          "price": 2500
+        },
+        {
+          "service_name": "Процедурный кабинет",
+          "is_free": false,
+          "price": 300
+        }
+      ]
+    },
+    {
+      "nameEN": "diagnostic_services",
+      "nameRU": "Диагностические услуги",
+      "services": [
+        {
+          "service_name": "Диагностические услуги",
+          "is_free": false,
+          "price": 800
+        },
+        {
+          "service_name": "МРТ",
+          "is_free": false,
+          "price": 1200
+        },
+        {
+          "service_name": "УЗИ",
+          "is_free": false,
+          "price": 500
+        },
+        {
+          "service_name": "Электрокардиограмма (ЭКГ)",
+          "is_free": true
+        },
+        {
+          "service_name": "Биохимический анализ крови",
+          "is_free": false,
+          "price": 400
+        }
+      ]
+    },
+    {
+      "nameEN": "surgical_services",
+      "nameRU": "Хирургические услуги",
+      "services": [
+        {
+          "service_name": "Хирургия",
+          "is_free": false,
+          "price": 1500
+        },
+        {
+          "service_name": "Эндоскопическая хирургия",
+          "is_free": false,
+          "price": 1800
+        },
+        {
+          "service_name": "Пластическая хирургия",
+          "is_free": false,
+          "price": 3000
+        },
+        {
+          "service_name": "Лапароскопия",
+          "is_free": false,
+          "price": 2200
+        },
+        {
+          "service_name": "Ортопедическая хирургия",
+          "is_free": false,
+          "price": 2000
+        }
+      ]
+    },
+    {
+      "nameEN": "therapy_services",
+      "nameRU": "Лечебные услуги",
+      "services": [
+        {
+          "service_name": "Физиотерапия",
+          "is_free": false,
+          "price": 600
+        },
+        {
+          "service_name": "Массаж",
+          "is_free": false,
+          "price": 400
+        },
+        {
+          "service_name": "ЛФК (лечебная физкультура)",
+          "is_free": false,
+          "price": 200
+        },
+        {
+          "service_name": "Акупунктура",
+          "is_free": false,
+          "price": 800
+        },
+        {
+          "service_name": "Ингаляции",
+          "is_free": false,
+          "price": 100
+        }
+      ]
+    },
+    {
+      "nameEN": "pharmacy",
+      "nameRU": "Аптечные услуги",
+      "services": [
+        {
+          "service_name": "Аптека",
+          "is_free": false,
+          "price": "по стоимости лекарств"
+        }
+      ]
+    },
+    {
+      "nameEN": "mental_health_services",
+      "nameRU": "Психотерапевтическая помощь и услуги психиатра",
+      "services": [
+        {
+          "service_name": "Психиатрическая помощь",
+          "is_free": false,
+          "price": 1200
+        },
+        {
+          "service_name": "Психотерапия",
+          "is_free": false,
+          "price": 1000
+        },
+        {
+          "service_name": "Консультация психолога",
+          "is_free": false,
+          "price": 800
+        },
+        {
+          "service_name": "Электроэнцефалограмма (ЭЭГ)",
+          "is_free": false,
+          "price": 500
+        },
+        {
+          "service_name": "Групповая терапия",
+          "is_free": false,
+          "price": 1500
+        }
+      ]
+    },
+    {
+      "nameEN": "maternity_services",
+      "nameRU": "Акушерская и гинекологическая помощь",
+      "services": [
+        {
+          "service_name": "Акушерская помощь",
+          "is_free": false,
+          "price": 1800
+        },
+        {
+          "service_name": "Кесарево сечение",
+          "is_free": false,
+          "price": 2500
+        },
+        {
+          "service_name": "Гинекологический осмотр",
+          "is_free": false,
+          "price": 600
+        },
+        {
+          "service_name": "Ультразвуковое исследование беременности",
+          "is_free": false,
+          "price": 800
+        },
+        {
+          "service_name": "Консультация гинеколога",
+          "is_free": false,
+          "price": 400
+        }
+      ]
+    },
+    {
+      "nameEN": "pediatric_services",
+      "nameRU": "Педиатрическая помощь",
+      "services": [
+        {
+          "service_name": "Педиатрическая помощь",
+          "is_free": false,
+          "price": 700
+        },
+        {
+          "service_name": "Вакцинация",
+          "is_free": false,
+          "price": 200
+        },
+        {
+          "service_name": "Детская офтальмология",
+          "is_free": false,
+          "price": 300
+        },
+        {
+          "service_name": "Детская отоларингология",
+          "is_free": false,
+          "price": 250
+        },
+        {
+          "service_name": "Консультация детского психолога",
+          "is_free": false,
+          "price": 500
+        }
+      ]
+    },
+    {
+      "nameEN": "oncology_services",
+      "nameRU": "Онкологическая помощь",
+      "services": [
+        {
+          "service_name": "Онкологическая помощь",
+          "is_free": false,
+          "price": 2500
+        },
+        {
+          "service_name": "Химиотерапия",
+          "is_free": false,
+          "price": 3000
+        },
+        {
+          "service_name": "Радиотерапия",
+          "is_free": false,
+          "price": 3500
+        },
+        {
+          "service_name": "Консультация онколога",
+          "is_free": false,
+          "price": 1200
+        },
+        {
+          "service_name": "Паллиативная помощь",
+          "is_free": false,
+          "price": 1500
+        }
+      ]
+    },
+    {
+      "nameEN": "dental_services",
+      "nameRU": "Стоматологическая помощь",
+      "services": [
+        {
+          "service_name": "Стоматология",
+          "is_free": false,
+          "price": 900
+        },
+        {
+          "service_name": "Ортодонтическое лечение",
+          "is_free": false,
+          "price": 1200
+        },
+        {
+          "service_name": "Удаление зуба",
+          "is_free": false,
+          "price": 400
+        },
+        {
+          "service_name": "Лечение кариеса",
+          "is_free": false,
+          "price": 300
+        },
+        {
+          "service_name": "Имплантация зуба",
+          "is_free": false,
+          "price": 2500
+        }
+      ]
+    },
+    {
+      "nameEN": "nutrition_services",
+      "nameRU": "Питание и диетология",
+      "services": [
+        {
+          "service_name": "Питание и диетология",
+          "is_free": false,
+          "price": 150
+        },
+        {
+          "service_name": "Индивидуальное питание",
+          "is_free": false,
+          "price": 200
+        },
+        {
+          "service_name": "Консультация диетолога",
+          "is_free": false,
+          "price": 100
+        },
+        {
+          "service_name": "Диета при диабете",
+          "is_free": false,
+          "price": 300
+        },
+        {
+          "service_name": "Питание при аллергии",
+          "is_free": false,
+          "price": 250
+        }
+      ]
+    },
+    {
+      "nameEN": "home_healthcare",
+      "nameRU": "Домашний уход и медицинские услуги на дому",
+      "services": [
+        {
+          "service_name": "Домашний уход",
+          "is_free": false,
+          "price": 1200
+        },
+        {
+          "service_name": "Медсестринские услуги на дому",
+          "is_free": false,
+          "price": 1500
+        },
+        {
+          "service_name": "Измерение давления на дому",
+          "is_free": false,
+          "price": 200
+        },
+        {
+          "service_name": "Инъекции на дому",
+          "is_free": false,
+          "price": 300
+        },
+        {
+          "service_name": "Медицинский уход за больными",
+          "is_free": false,
+          "price": 1800
+        }
+      ]
+    },
+    {
+      "nameEN": "emergency_transportation",
+      "nameRU": "Скорая транспортировка",
+      "services": [
+        {
+          "service_name": "Скорая транспортировка",
+          "is_free": false,
+          "price": 300
+        },
+        {
+          "service_name": "Транспортировка при родах",
+          "is_free": false,
+          "price": 500
+        },
+        {
+          "service_name": "Эвакуация при аварии",
+          "is_free": false,
+          "price": 800
+        },
+        {
+          "service_name": "Перевозка пациента в другой город",
+          "is_free": false,
+          "price": 1200
+        },
+        {
+          "service_name": "Транспортировка при тяжелой травме",
+          "is_free": false,
+          "price": 1000
+        }
+      ]
+    },
+    {
+      "nameEN": "patient_education",
+      "nameRU": "Образовательные программы для пациентов",
+      "services": [
+        {
+          "service_name": "Образовательные программы для пациентов",
+          "is_free": true
+        },
+        {
+          "service_name": "Курсы по здоровому образу жизни",
+          "is_free": true
+        },
+        {
+          "service_name": "Семинары по уходу за новорожденным",
+          "is_free": true
+        },
+        {
+          "service_name": "Лекции по профилактике онкологии",
+          "is_free": true
+        },
+        {
+          "service_name": "Тренинги по управлению стрессом",
+          "is_free": true
+        }
+      ]
+    }
+  ]
+}
